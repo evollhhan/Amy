@@ -1,0 +1,35 @@
+{
+  "name": "animation-collection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^3.4.0",
+    "gulp": "^3.9.1",
+    "gulp-stylus": "^2.5.0",
+    "rename": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-standard": "^6.0.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.5.0",
+    "yargs": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evollhhan/AnimaterCollection.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evollhhan/AnimaterCollection/issues"
+  },
+  "homepage": "https://github.com/evollhhan/AnimaterCollection#readme"
+}
