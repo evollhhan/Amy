@@ -1,0 +1,38 @@
+@import "../../_common/style/normalize.styl"
+
+.rect
+    position: absolute
+    top: 50%
+    left: 50%
+    width: 400px
+    height: 40px
+    line-height: 40px
+    margin-left: -200px
+    margin-top: -20px
+    border-radius: 4px
+    text-align: center
+    box-shadow: 0 0 10px #eee
+    color: #fff
+    overflow: hidden
+
+    &:after
+        position: absolute
+        top: 0
+        width: 0px
+        height: 40px
+        content: ''
+        display: block
+        background: #f66
+        animation: move 2s cubic-bezier(0.65, 0.05, 0.36, 1) infinite
+        right: 0
+        z-index: -1
+
+@keyframes move
+    0%
+        left: 0
+        width: 0
+    50%
+        width: 400px
+    100%
+        right: 0
+        width: 0
