@@ -1,0 +1,23 @@
+@import "../../_common/style/normalize.styl"
+
+.img-container
+    position: absolute
+    top: 45%
+    left: 50%
+    width: 400px
+    height: 120px
+    margin-left: -200px
+    margin-top: -60px
+    box-shadow: 0 6px 12px #fffaf0,  0 -6px 12px #fdc439, -6px 0 12px #ffedc4, 6px 0 12px #ffedc4
+    animation: changeShadow 4s ease infinite
+    overflow: hidden
+
+@keyframes changeShadow
+    0%
+        box-shadow: 0 6px 12px #fffaf0,  0 -6px 12px #fdc439, -6px 0 12px #ffedc4, 6px 0 12px #ffedc4
+    25%
+        box-shadow: 0 6px 12px #fff0f5,  0 -6px 12px #f576c8, -6px 0 12px #ffedc4, 6px 0 12px #ffedc4
+    50%
+        box-shadow: 0 6px 12px #fff0f5,  0 -6px 12px #f576c8, -6px 0 12px #f7e8f2, 6px 0 12px #f7e8f2
+    100%
+        box-shadow: 0 6px 12px #fffaf0,  0 -6px 12px #fdc439, -6px 0 12px #ffedc4, 6px 0 12px #ffedc4

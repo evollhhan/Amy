@@ -1,14 +1,6 @@
 /* eslint no-unused-vars: 0 */
 
-function RssX () {
-  const _subscriber = {}
-  this.publish = (key, data) => {
-    _subscriber[key](data)
-  }
-  this.subscribe = (key, func) => {
-    _subscriber[key] = func
-  }
-}
+import {RssX} from '../_module/eventRss'
 
 const RSSX = new RssX()
 
@@ -17,4 +9,3 @@ RSSX.subscribe('goToWork', (data) => {
 })
 
 RSSX.publish('goToWork', 'hello world')
-
