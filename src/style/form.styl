@@ -1,0 +1,101 @@
+input[type="checkbox"]
+  margin-right: .5em
+
+input[type="text"]
+  // border-width: 0 0 1px 0
+  // border-style: solid
+  // border-color: #ccc
+  border: none
+  padding: 6px 0
+  width: 400px
+  font-size: 14px
+  color: #666
+  transition: .3s ease
+  &:focus
+    outline: none
+    // border-color: #03a9f4
+    color: #1e88e5
+  &.error
+    border-color: #e53935
+    color: #e53935
+
+input[type="radio"]
+input[type="checkbox"]
+  opacity: 0
+
+label
+  position: relative
+  input
+    vertical-align: middle
+  
+.pre-radio
+.pre-sq
+  position: absolute
+  font-size: 16px
+  
+.pre-radio
+  left: 3px
+  top: 1px
+
+.button
+  font-size: 16px
+  color: #03a9f4
+  cursor: pointer
+  transition: .3s ease
+  &:hover
+    text-decoration: underline
+  &.disable
+    color: #c6c6c6
+  &.error
+    color: #e53935
+
+.btn
+  position: relative
+  display: inline-block
+  min-width: 72px
+  padding: 8px 14px
+  background: #03A9F4
+  box-shadow: 1px 2px 4px rgba(0,0,0,0.2)
+  border-radius: 2px
+  font-size: 14px
+  font-weight: bold
+  text-align: center  
+  transition: .3s ease
+  overflow: hidden
+  cursor: pointer
+  color: #fff
+
+  &:before
+  &:after
+    content: ''
+    display: block
+    position: absolute
+    width: 130px
+    height: 130px
+    background: rgba(255, 255, 255, 0.2)
+    border-radius: 50%
+    transition: .4s ease
+    transform: rotate(45deg)
+    opacity: 0
+
+  &:before
+    top: -40px
+    left: -40px
+    transform-origin: 0% 0%
+  
+  &:after
+    bottom: -40px
+    right: -40px
+    transform-origin: 100% 100%
+
+  &:hover
+    &:before
+    &:after
+      transform: rotate(0deg)
+      opacity: 1
+
+  &.enlight
+    background: #66bb6a
+    
+  &.disable
+    background: rgba(198, 198, 198, 1) !important

@@ -3,11 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import sleepExtend from './components/sleep'
+import sleepExtend from '@/components/sleep'
+import noticeExtend from '@/components/notice/extend'
 import store from './store'
 
 Vue.config.productionTip = false
 Vue.use(sleepExtend)
+Vue.use(noticeExtend)
+
+import './style/index.styl'
 
 /* eslint-disable no-new */
 new Vue({

@@ -11,7 +11,7 @@
 </template>
 
 <style lang="stylus" scoped>
-.circle
+  .circle
     stroke-dasharray: 125
     stroke-dashoffset: 125
     transform-origin: 50%

@@ -1,17 +1,36 @@
 <template lang="jade">
   div#app
-    p hello world
-    router-view
+    div.include(:class="{show: show}")
+      sidebar
+      notice
+      motion-back
+    div.router-container(:class="{seperate: hasLog}")
+      div.container
+        router-view
+      logger.log-area(v-show="show && hasLog")
 </template>
 
-<style lang="stylus" scoped>
-  p
-   font-size: 36px
-   color: #f33
-</style>
-
 <script>
+  import sidebar from '@/components/sidebar'
+  import notice from '@/components/notice'
+  import logger from '@/components/logger'
+  import motionBack from '@/components/motion-back'
+
   export default {
-    name: 'app'
+    name: 'app',
+    components: {
+      motionBack,
+      sidebar,
+      notice,
+      logger
+    },
+    computed: {
+      show () {
+        return this.$route.path !== '/'
+      },
+      hasLog () {
+        return this.$store.state.config.realTimeLog
+      }
+    }
   }
 </script>
