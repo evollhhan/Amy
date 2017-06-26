@@ -56,6 +56,22 @@
       opacity: 0
       &.busy
         opacity: 1
+  
+  @media screen and (max-width: 480px)
+    .se-title
+    .se-subtitle
+      left: 0
+    
+    .se-title
+      top: -125px
+    
+    .se-subtitle
+      top: -70px
+
+    .section-box
+      margin-top: 200px
+      padding: 0
+      box-shadow: none
 </style>
 
 <script>

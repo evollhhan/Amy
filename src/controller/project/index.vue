@@ -96,6 +96,29 @@
   .projects
     padding: 0 2px
     transition: .1s ease
+
+  @media screen and (max-width: 480px)
+    .load
+      .drag-container
+      .title-bar
+        animation-name: animate-m-fadein
+
+    .title-bar
+      position: absolute
+      margin-top: 0
+      top: 70px
+      width: 84%
+      left: 8%
+    
+    .project-list
+      position: absolute
+      margin-top: 0
+      padding: 0 8%
+      top: 200px
+      height: auto
+    
+    .projects
+      width: 100% !important
 </style>
 
 <script>

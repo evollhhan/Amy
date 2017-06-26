@@ -1,8 +1,8 @@
 {
   "name": "welcome",
-  "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "Pathen <evollhhan@gmail.com>",
+  "version": "1.0.1",
+  "description": "lookbook 2016-2017",
+  "author": "Pathen",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

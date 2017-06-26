@@ -117,6 +117,10 @@
       font-size: 14px
     span
       margin-left: 0.4em
+  
+  @media screen and (max-width: 480px)
+    .action
+      text-align: center
 </style>
 
 <script>

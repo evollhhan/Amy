@@ -74,6 +74,30 @@
     background-color: #eee
     background-size: cover
     background-position: center
+
+  @media screen and (max-width: 480px)
+    .item
+      display: block
+      margin-right: 0
+      width: 84vw
+      height: 84vw
+      margin-bottom: 20vw
+
+      .cover
+        width: 84vw
+        height: 84vw
+        border-radius: 6px
+      
+      .detail
+        position: absolute
+        border-radius: 0 0 6px 6px
+        padding: 1em 0
+        width: 100%
+        bottom: 0
+        background: rgba(255, 255, 255, .92)
+      
+      h5
+        opacity: 1
 </style>
 
 <script>

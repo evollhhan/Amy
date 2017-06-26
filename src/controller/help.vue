@@ -4,8 +4,13 @@
     :subtitle="subtitle"
   )
     h4 LOOKBOOK
-    h5 lastest version 1.0.0 by pathen @2017.7
+    h5 lastest version 1.0.1 by pathen @2017.7
     hr
+
+    h3 version 1.0.1
+    p by pathen
+    p 1. 兼容移动端样式
+    p 2. 其他小的问题修复
 
     h3 version 1.0.0
     p by pathen

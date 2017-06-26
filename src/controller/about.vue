@@ -23,6 +23,7 @@
       li gulp
       li angluar 1.x
       li nodejs
+      li vagrant
     p 有时候我还得需要使用他们：
     ul
       li ps （什么？这是切图仔的基本功？）
@@ -33,7 +34,6 @@
     ul
       li .net
       li mssql
-    p 有问题你就留言吧，不过我不保证 100% 都能答上来。
     h5 祝你访问愉快～ （2017.6）
 </template>
 

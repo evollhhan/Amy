@@ -40,6 +40,12 @@
     &.error
       &:after
         background: #e53935
+  
+  @media screen and (max-width: 480px)
+    .input-area
+      width: 100%
+      input
+        width: 100%
 </style>
 
 <script>

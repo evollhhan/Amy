@@ -6,9 +6,11 @@
           :class="{ active: path.indexOf(item.name) > -1 }",
           v-for="item in menu"
         )
-      p.link-bar(v-for="item in menu")
+      p.link-bar(
+        v-for="item in menu",
+        :class="{ active: path.indexOf(item.name) > -1 }"
+      )
         a.link(
-          :class="{ active: path.indexOf(item.name) > -1 }",
           @click="jump(item.name)"
         ) {{ item.label }}
 </template>
@@ -40,7 +42,7 @@
     width: 90px
     height: 242px
     font-size: 13px
-  
+
   .figure
     position: absolute
     pointer-events: none    
@@ -71,6 +73,7 @@
   
   .link
     position: relative  
+    transition: .3s ease
     display: inline-block
     color: #666    
     &:after
@@ -92,11 +95,53 @@
     &:after
       background: rgba(122, 122, 122, .9)
 
-    &.active:after
-    &:hover:before
+  .active
+    .link:after
+    .link:hover:before
       transform: scaleX(1)
-</style>
 
+  // mobile style
+  // ----
+  @media screen and (max-width: 480px)
+    .sidebar-container
+      width: 100%
+      height: 60px
+      line-height: 58px
+      box-shadow: 0 0 2px rgba(0, 0, 0, .2)
+      background: #fff
+
+    .sidebar
+      display: flex
+      margin-top: 0
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+    
+    .figure
+      display: none
+    
+    .link-bar
+      flex: 1
+      margin: 0
+      padding: 0
+      text-align: center
+      transform: translate(0)
+      opacity: 1
+    
+      .link
+        color: #999
+        &:before
+        &:after
+          display: none
+      
+      &.active
+        font-weight: bold
+
+        .link
+          color: #666
+          transform: scale(1.2)
+</style>
 
 <script>
   import router from '@/router'
