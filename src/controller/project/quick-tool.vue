@@ -83,7 +83,7 @@
       color: #03a9f4
       animation: animate-shaker 1.2s ease infinite
   
-  @media screen and (max-width: 480px)
+  @media screen and (max-width: 760px)
     .quick-tool
       display: none
 </style>

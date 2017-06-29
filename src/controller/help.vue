@@ -4,18 +4,19 @@
     :subtitle="subtitle"
   )
     h4 LOOKBOOK
-    h5 lastest version 1.0.1 by pathen @2017.7
+    h5 lastest version 1.0.2 by pathen @2017.6
     hr
 
+    h3 version 1.0.2
+    p 1. 移动端样式优化
+
     h3 version 1.0.1
-    p by pathen
     p 1. 兼容移动端样式
     p 2. 其他小的问题修复
 
     h3 version 1.0.0
-    p by pathen
     p 1. 在本地添加了我的项目信息
-    p 2. 去除了一些与公司开发环境有关的接口和变量。
+    p 2. 重写了与工作有关的代码，包括开发环境有关的接口和变量。
     p 3. 优化了视觉信息和错误处理。
 </template>
 

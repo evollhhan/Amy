@@ -75,17 +75,15 @@
     background-size: cover
     background-position: center
 
-  @media screen and (max-width: 480px)
+  @media screen and (max-width: 760px)
     .item
       display: block
       margin-right: 0
-      width: 84vw
-      height: 84vw
-      margin-bottom: 20vw
 
       .cover
-        width: 84vw
-        height: 84vw
+        position: absolute
+        width: 100%
+        height: 100%
         border-radius: 6px
       
       .detail
@@ -98,6 +96,22 @@
       
       h5
         opacity: 1
+  
+  @media screen and (min-width: 480px) and (max-width: 760px)
+    .item
+      display: inline-block
+      margin-bottom: 8vw
+      width: 40vw
+      height: 40vw
+      
+      &:nth-child(2n+1)
+        margin-right: 4vw
+
+  @media screen and (max-width: 480px)
+    .item
+      margin-bottom: 20vw
+      width: 84vw
+      height: 84vw
 </style>
 
 <script>

@@ -41,7 +41,7 @@
       &:after
         background: #e53935
   
-  @media screen and (max-width: 480px)
+  @media screen and (max-width: 760px)
     .input-area
       width: 100%
       input

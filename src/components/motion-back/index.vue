@@ -57,7 +57,7 @@
     transform: translateX(-320%)
     opacity: 0
 
-@media screen and (max-width: 480px)
+@media screen and (max-width: 760px)
   .motion-view
     display: none
 </style>

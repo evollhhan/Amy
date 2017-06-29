@@ -118,7 +118,7 @@
     span
       margin-left: 0.4em
   
-  @media screen and (max-width: 480px)
+  @media screen and (max-width: 760px)
     .action
       text-align: center
 </style>

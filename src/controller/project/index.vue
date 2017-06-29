@@ -97,7 +97,7 @@
     padding: 0 2px
     transition: .1s ease
 
-  @media screen and (max-width: 480px)
+  @media screen and (max-width: 760px)
     .load
       .drag-container
       .title-bar
