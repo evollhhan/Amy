@@ -7,22 +7,34 @@
     hr(style="margin-bottom: 1.5em")
 
     h3 Hola.
-    p 这原本是一个我在工作中编写的前端开发工具，支持非SSR项目与SSR项目的搭建，开发，构建和模拟。经过特定修改后，作为了我的个人作品展示页面。里面大多数接口信息和与工作有关的变量已经被去除，但还是保留了一些项目以供预览和相互交流。在项目一页中，你可以看到我以往的一些作品，当然主要是活动页面（这些开发相对独立），实际上我还会参与其他很多业务的开发以及基础架构的搭建。
+    p
+      span 这原本是一个我在工作中编写的前端开发工具，支持非SSR项目与SSR项目的搭建，开发，构建和模拟。
+      span 经过特定修改后，作为了我的个人作品展示页面。里面大多数接口信息和与工作有关的变量已经被去除，但还是保留了一些项目以供预览和相互交流。
+      span 在项目一页中，你可以看到我以往的一些作品，当然主要是活动页面（这些开发相对独立），除此之外我还会参与其他业务迭代和基础架构平台的搭建。
     h3 技术栈
-    p 这些是我在工作中用到的一些技术(排名不分先后)，我并不是某方面的专家，但是我会用他们来解决问题以及做一些创造性的事情！
+    p 
+      span 以下是我在工作中用到的一些技术(排名不分先后)，我并不是某方面的专家，但是我会用他们来解决问题以及做一些
+      span(style="text-decoration:underline;color:#FF9800;font-weight:bold;") 创造性
+      span 的事情！
+    p [ 框架 ]
     ul
-      li vue 1.x / vue 2.x
-      li vue-ssr
-      li stylus
-      li sass
-      li webpack 2
+      li vue 1.x / 2.x / vue-ssr
+      li angluar 1.x
+    p [ 构建 ]
+    ul
+      li webpack 1 / 2
+      li gulp
+    p [ 动画 ]
+    ul
       li webgl for 3d/2d (threejs, learning glsl)
       li createjs for 2d
-      li css3
-      li svg
-      li gulp
-      li angluar 1.x
+      li css3 && svg
+    p [ 其他 ]
+    ul
+      li typescript    
+      li stylus / sass
       li nodejs
+      li mongodb
       li vagrant
     p 有时候我还得需要使用他们：
     ul
@@ -30,10 +42,9 @@
       li ai （做矢量的不错选择）
       li 3dmax （抱歉我不是建模砖家）
       li garageband （加上一点灵感)
-    p 对了，我最开始还摸索过一段时间他们，为以往的公司开发一个内部小型OA平台：
+    p 当然在我工作过程中我还有时候还会需要其他一些语言来帮助我完成某个特定的工作，例如：
     ul
-      li .net
-      li mssql
+      li .net ／ php / java ／ mssql
     h5 祝你访问愉快～ （2017.6）
 </template>
 

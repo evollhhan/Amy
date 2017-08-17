@@ -40,7 +40,7 @@ export default () => {
         {
           name: 'deepspace',
           author: 'pathen',
-          description: '点标题5下看彩蛋～',
+          description: '点标题5下看游戏彩蛋～',
           path: 'http://live.bilibili.com/hd/deepspace',
           type: 'activity'
         },
