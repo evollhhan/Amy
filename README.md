@@ -1,5 +1,5 @@
-# LOOKBOOK 2016-2017
+# LOOKBOOK S1
 
-> 个人作品集
+> 2016-2017 个人作品集
 
-请访问 [https://evollhhan.github.io/LOOKBOOK/](https://evollhhan.github.io/LOOKBOOK/)
+Please view the website: [https://evollhhan.github.io/LOOKBOOK/](https://evollhhan.github.io/LOOKBOOK/)
